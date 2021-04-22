@@ -1,0 +1,24 @@
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\bin\Release\Trabalho BD1.exe.config
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\bin\Release\Trabalho BD1.exe
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\bin\Release\Trabalho BD1.pdb
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\bin\Release\EntityFramework.dll
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\bin\Release\System.Data.SQLite.dll
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\bin\Release\EntityFramework.xml
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\bin\Release\System.Data.SQLite.xml
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho_BD1.Properties.Resources.resources
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho BD1.csproj.GenerateResource.cache
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho BD1.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho BD1.csproj.CopyComplete
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho BD1.exe
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho BD1.pdb
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho_BD1.Form1.resources
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho_BD1.Form2.resources
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho_BD1.Form3.resources
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho_BD1.Form4.resources
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho_BD1.Form5.resources
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho_BD1.Form6.resources
+C:\Users\lucas\source\repos\Trabalho BD1\Trabalho BD1\obj\Release\Trabalho_BD1.Form7.resources
