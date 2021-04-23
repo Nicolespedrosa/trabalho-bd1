@@ -61,6 +61,25 @@ namespace Trabalho_BD1.Code
                 throw ex;
             }
         }
+        public DataTable getMatricula()
+        {
+            SQLiteDataAdapter da;
+            DataTable dt = new DataTable();
+            try
+            {
+                using (var cmd = connection.CreateCommand())
+                {
+                    cmd.CommandText = "SELECT CódigoE as codEmpregado, CódigoT as codTurma, Frequência FROM MATRÍCULA";
+                    da = new SQLiteDataAdapter(cmd.CommandText, connection);
+                    da.Fill(dt);
+                    return dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public void insertEmpregado(string nome, string endereco, string telefone, string cargo,int codigog)
         {
             try
@@ -152,7 +171,7 @@ namespace Trabalho_BD1.Code
             {
                 using (var cmd = connection.CreateCommand())
                 {
-                    cmd.CommandText = "DELETE FROM " + table + " WHERE rowid=" +row  ;
+                    cmd.CommandText = "DELETE FROM EMPREGADO WHERE CódigoE=" + row;
                     da = new SQLiteDataAdapter(cmd.CommandText, connection);
                     da.Fill(dt);
                     return dt;
@@ -172,7 +191,7 @@ namespace Trabalho_BD1.Code
             {
                 using (var cmd = connection.CreateCommand())
                 {
-                    cmd.CommandText = "SELECT CódigoT, CURSO.Nome, INSTRUTOR.Nome, HORÁRIOS.horário FROM TURMA INNER JOIN CURSO on TURMA.CódigoC = CURSO.CódigoC INNER JOIN INSTRUTOR on TURMA.CódigoI = INSTRUTOR.CódigoI inner join HORÁRIOS on TURMA.códigoh = HORÁRIOS.códigoh WHERE CódigoT = " + turma;
+                    cmd.CommandText = "SELECT CódigoT as codTurma, CURSO.Nome, INSTRUTOR.Nome as nomeInstrutor, HORÁRIOS.horário FROM TURMA INNER JOIN CURSO on TURMA.CódigoC = CURSO.CódigoC INNER JOIN INSTRUTOR on TURMA.CódigoI = INSTRUTOR.CódigoI inner join HORÁRIOS on TURMA.códigoh = HORÁRIOS.códigoh WHERE CódigoT = " + turma;
                     da = new SQLiteDataAdapter(cmd.CommandText, connection);
                     da.Fill(dt);
                     return dt;
@@ -192,7 +211,7 @@ namespace Trabalho_BD1.Code
             {
                 using (var cmd = connection.CreateCommand())
                 {
-                    cmd.CommandText = "SELECT EMPREGADO.nome, EMPREGADO.Cargo, CURSO.Nome FROM MATRÍCULA inner join EMPREGADO on MATRÍCULA.códigoe = EMPREGADO.CódigoE INNer join TURMA on MATRÍCULA.CódigoT = TURMA.CódigoT inner join CURSO ON TURMA.CódigoC = CURSO.CódigoC WHERE TURMA.CódigoT = " + turma;
+                    cmd.CommandText = "SELECT EMPREGADO.nome, EMPREGADO.Cargo, CURSO.Nome as Curso FROM MATRÍCULA inner join EMPREGADO on MATRÍCULA.códigoe = EMPREGADO.CódigoE INNer join TURMA on MATRÍCULA.CódigoT = TURMA.CódigoT inner join CURSO ON TURMA.CódigoC = CURSO.CódigoC WHERE TURMA.CódigoT = " + turma;
                     da = new SQLiteDataAdapter(cmd.CommandText, connection);
                     da.Fill(dt);
                     return dt;

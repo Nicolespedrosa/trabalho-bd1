@@ -163,6 +163,16 @@ namespace Trabalho_BD1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tecnico {
+            get {
+                object obj = ResourceManager.GetObject("tecnico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap turma {
             get {
                 object obj = ResourceManager.GetObject("turma", resourceCulture);

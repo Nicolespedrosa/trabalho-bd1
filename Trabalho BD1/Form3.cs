@@ -42,7 +42,7 @@ namespace Trabalho_BD1
         private void button1_Click(object sender, EventArgs e)
         {
             dados.insertMatricula(comboBox1.SelectedIndex + 1, int.Parse(comboBox2.SelectedItem.ToString()));
-            dataGridView1.DataSource = dados.getAll("MATRÍCULA");
+            dataGridView1.DataSource = dados.getMatricula();
             Form5 form5 = new Form5();
             form5.Show();
         }

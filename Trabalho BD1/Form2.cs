@@ -46,7 +46,7 @@ namespace Trabalho_BD1
         {
             foreach(DataGridViewRow row in dataGridView1.SelectedRows)
             {
-                dados.deleteRow(row.Index, "EMPREGADO");
+                dados.deleteRow(Convert.ToInt16(row.Cells["CódigoE"].Value), "EMPREGADO");
             }
         }
 

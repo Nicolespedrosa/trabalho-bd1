@@ -33,14 +33,14 @@ namespace Trabalho_BD1
             this.label5 = new System.Windows.Forms.Label();
             this.cbNome = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -90,14 +90,14 @@ namespace Trabalho_BD1
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pictureBox2
+            // pictureBox4
             // 
-            this.pictureBox2.Image = global::Trabalho_BD1.Properties.Resources.consultarE;
-            this.pictureBox2.Location = new System.Drawing.Point(40, 57);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(130, 40);
-            this.pictureBox2.TabIndex = 55;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox4.Image = global::Trabalho_BD1.Properties.Resources.tecnico;
+            this.pictureBox4.Location = new System.Drawing.Point(41, 60);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(280, 40);
+            this.pictureBox4.TabIndex = 56;
+            this.pictureBox4.TabStop = false;
             // 
             // button4
             // 
@@ -173,7 +173,7 @@ namespace Trabalho_BD1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(752, 601);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button6);
@@ -189,7 +189,7 @@ namespace Trabalho_BD1
             this.Text = "Form7";
             this.Load += new System.EventHandler(this.Form7_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -208,6 +208,6 @@ namespace Trabalho_BD1
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cbNome;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
